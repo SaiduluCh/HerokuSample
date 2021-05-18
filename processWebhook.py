@@ -8,7 +8,7 @@ from flask import Flask, render_template, request,jsonify
 # from cheque_number import bank_of_america_cheque
 import numpy as np
 import base64
-import cv2
+#import cv2
 
 
 app = flask.Flask(__name__)
