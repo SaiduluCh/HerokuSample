@@ -3,9 +3,9 @@ import os
 from flask import send_from_directory
 
 from flask import Flask, render_template, request,jsonify
-from cheque_number import cheque_micr_data
-from cheque_number import american_cheque_micr_data
-from cheque_number import bank_of_america_cheque
+# from cheque_number import cheque_micr_data
+# from cheque_number import american_cheque_micr_data
+# from cheque_number import bank_of_america_cheque
 import numpy as np
 import base64
 import cv2
