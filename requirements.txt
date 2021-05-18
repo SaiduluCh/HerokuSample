@@ -12,7 +12,6 @@ pycodestyle==2.6.0
 pylint==2.6.0
 toml==0.10.1
 wrapt==1.12.1
-
 Flask==2.0.0
 numpy==1.19.4
 opencv-python==4.5.2.52
