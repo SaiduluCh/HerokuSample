@@ -7,25 +7,25 @@ from io import BytesIO
 from flask import jsonify
 
 
-# roi_per_img = {"/deep_learning_samples/10_jpg/img_1.jpg": (940, 1040),
-#                "/deep_learning_samples/10_jpg/img_2.jpg": (940, 1040),
-#                "/deep_learning_samples/10_jpg/img_3.jpg": (940, 1040),
-#                "/deep_learning_samples/10_jpg/img_4.jpg": (940, 1040),
-#                "/deep_learning_samples/10_jpg/img_5.jpg": (940, 1040),
-#                "/deep_learning_samples/10_jpg/img_6.jpg": (940, 1040),
-#                "/deep_learning_samples/10_jpg/img_7.jpg": (940, 1040),
-#                "/deep_learning_samples/10_jpg/img_8.jpg": (940, 1040),
-#                "/deep_learning_samples/10_jpg/img_9.jpg": (940, 1040),
-#                "/deep_learning_samples/10_jpg/img_10.jpg": (940, 1040)
-#                }
+roi_per_img = {"/deep_learning_samples/10_jpg/img_1.jpg": (940, 1040),
+               "/deep_learning_samples/10_jpg/img_2.jpg": (940, 1040),
+               "/deep_learning_samples/10_jpg/img_3.jpg": (940, 1040),
+               "/deep_learning_samples/10_jpg/img_4.jpg": (940, 1040),
+               "/deep_learning_samples/10_jpg/img_5.jpg": (940, 1040),
+               "/deep_learning_samples/10_jpg/img_6.jpg": (940, 1040),
+               "/deep_learning_samples/10_jpg/img_7.jpg": (940, 1040),
+               "/deep_learning_samples/10_jpg/img_8.jpg": (940, 1040),
+               "/deep_learning_samples/10_jpg/img_9.jpg": (940, 1040),
+               "/deep_learning_samples/10_jpg/img_10.jpg": (940, 1040)
+               }
 
 
-# def get_roi(image_path):
+def get_roi(image_path):
 
-#     img = cv2.imread(image_path)
-#     return img
-#     x1, x2 = roi_per_img[image_path]
-#     return img[x1:x2, :]
+    img = cv2.imread(image_path)
+    return img
+    x1, x2 = roi_per_img[image_path]
+    return img[x1:x2, :]
 
 
 
