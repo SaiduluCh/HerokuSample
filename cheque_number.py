@@ -6,7 +6,7 @@ from PIL import Image
 from io import BytesIO
 from flask import jsonify
 
-
+pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 roi_per_img = {"/deep_learning_samples/10_jpg/img_1.jpg": (940, 1040),
                "/deep_learning_samples/10_jpg/img_2.jpg": (940, 1040),
                "/deep_learning_samples/10_jpg/img_3.jpg": (940, 1040),
